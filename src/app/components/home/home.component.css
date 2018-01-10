@@ -1,0 +1,36 @@
+.create > a {
+    position: absolute;
+    right: 10px;
+}
+
+.delete {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.card-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.operation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.operation > button:hover {
+    cursor: pointer;
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.card-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 275px;
+}

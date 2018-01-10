@@ -1,0 +1,8 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    white-space: nowrap;
+}
