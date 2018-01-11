@@ -1,0 +1,58 @@
+[
+    {
+        "title":"Refactoring",
+        "url":"https://martinfowler.com/books/refactoring.html",
+        "category":"Book",
+        "description":"Improving the Design of Existing Code",
+        "isRead":false,
+        "id": 1
+    },
+    {
+        "title":  "Functional Programming",
+        "url": "https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming",
+        "category": "Blog",
+        "description": "Practical introduction to functional programming",
+        "isRead": true,
+        "id": 2
+    },
+    {
+        "title":"No SQL Distilled",
+        "url":"https://martinfowler.com/books/nosql.html",
+        "category":"Book",
+        "description":"A brief guide to emerging world of polygot persistence",
+        "isRead":false,
+        "id": 3
+    },
+    {
+        "title":"Redux",
+        "url":"https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6",
+        "category":"Blog",
+        "description":"A Cartoon introduction to Redux",
+        "isRead":true,
+        "id": 4
+    },
+    {
+        "title":"Head First Design Patterns",
+        "url":"http://shop.oreilly.com/product/9780596007126.do",
+        "category":"Book",
+        "description":"Your Brain on Design Patterns",
+        "isRead":true,
+        "id": 5
+    },
+    {
+        "title":"Game Programming Patterns",
+        "url":"http://gameprogrammingpatterns.com/contents.html",
+        "category":"Blog",
+        "description":"Design Patterns for Game development",
+        "isRead":false,
+        "id": 6
+    },
+    {
+        "title":"Domain Driven Design",
+        "url":"https://books.google.com/books?id=hHBf4YxMnWMC",
+        "category":"Book",
+        "description":"Design based on your domain",
+        "isRead":false,
+        "id": 7
+    }
+]

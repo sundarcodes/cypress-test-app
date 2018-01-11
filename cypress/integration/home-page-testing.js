@@ -51,4 +51,16 @@ describe('Testing Good Reads home page', () => {
         cy.get('div > a').contains('New').click({ force: true });
         cy.url().should('include', 'new');
     })
+    it.only('should display list of blogs returned by server', () => {
+        cy.server()           // enable response stubbing
+        cy.route({
+          method: 'GET',      // Route all GET requests
+          url: '/api/index',    // that have a URL that matches '/users/*'
+          response: 'fixture:index.json'   // and force the response to be: []
+        })
+        cy.visit('');
+        cy.get('.card')
+        .its('length')
+        .should('be.eq', 7)
+    })
 })
